@@ -1,0 +1,118 @@
+@media screen and (max-width: 991px){
+
+}
+@media screen and (max-width: 767px){
+    .button, button{
+        width: 140px;
+        font-size: 14px;
+        margin: 0;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    header{
+        margin: 0;
+    }
+    header .container{
+        overflow: visible;
+    }
+    .container{
+        padding: 80px 0;
+    }
+    .description{
+        font-size: 13px;
+        margin: 20px 0 50px 0;
+        width: auto;
+    }
+    .topnavbar{
+        display: none;
+    }
+    .toggle{
+        display: block;
+    }
+    #intro {
+        height: auto;
+        padding: 150px 0 80px 0;
+    }
+    .intro_text{
+        font-size: 14px;
+        margin: 40px 0;
+        width: 60%;
+    }
+    #intro .button {
+        margin-right: 5px;
+    }
+    .about_info{
+        align-items: center;
+        padding: 0;
+    }
+    .about_info table {
+        padding: 20px 0;
+    }
+    #about .button {
+        margin: 0;
+    }
+    .portfolio_options{
+        width: 80%;
+        font-size: 13px;
+    }
+    .portfolio_examples {
+        margin: 60px 0;
+    }
+    .articles {
+        margin-bottom: 50px;
+    }
+    #contacts textarea {
+        margin-bottom: 20px;
+        height: 200px;
+    }
+    .contacts_info {
+        flex: 1 364px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .contacts_info table {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .bottomnavbar {
+        font-size: 14px;
+        text-align: center;
+    }
+    footer .container {
+        padding: 40px 0;
+    }
+    #copyright {
+        line-height: 3;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 319px){
+    .intro_social, .intro_buttons, .about_buttons, .bottomnavbar{
+        display: none;
+    }
+    .socialicon{
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+    .contacts_info table {
+        font-size: 12px;
+    }
+    .about_info table {
+        font-size: 12px;
+    }
+    .container{
+        padding: 60px 0;
+    }
+    #copyright {
+        font-size: 10px;
+    }
+    footer .container {
+        padding: 25px 0;
+    }
+}
